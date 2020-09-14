@@ -13,7 +13,7 @@ Basically we have to design a BOT which can detect different shape and colour an
 * We used OpenCV for shape detection and colour detection. A mask image of yellow coloured object is here-
 ![mask image](https://github.com/ujjawalece/Pixelate_2020_Technex_IIT-BHU-/blob/master/Mask_image.png)
 
-* Then find there coordinates and make a 9X9 matrix from these shapes. Here is an image where the black and white dots showing the coordinates of coloured object-
+* Then find there coordinates and make a 9X9 matrix from these shapes. Here is an image where the black and white dots showing the 81 coordinates of coloured object which are stored in a 9X9 matrix-
 ![img](https://github.com/ujjawalece/Pixelate_2020_Technex_IIT-BHU-/blob/master/img.png)
 
 * Then an optimal path was plotted to get the optimal trajectory(we used dijkstra theorem here).
